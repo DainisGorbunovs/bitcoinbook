@@ -43,7 +43,7 @@ jobs:
           # Extra parameters to pass to the asciidoctor command to customize the process of building adoc files
           #asciidoctor_params: # optional
           # The extension you are using for your AsciiDoc Files
-          adoc_file_ext: .asciidoc # optional, default is .adoc
+          # adoc_file_ext: .adoc # optional, default is .adoc
           # Defines if a PDF ebook should be built along with the html files. That will generate an ebook.pdf file inside the gh-pages branch.
           pdf_build: true # optional, default is false
           # Defines the name of the main AsciiDoc file that will be used if you are generating an ebook in PDF or any other supported format. For instance, if the main ebook file is "ebook.adoc", just inform "ebook" here.
